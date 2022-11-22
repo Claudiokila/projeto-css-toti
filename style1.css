@@ -1,0 +1,280 @@
+*{
+  margin: 0%; padding: 0%;
+
+}
+
+
+.N1-KILA{
+    background-color: rgb(50, 50, 50);
+    height: 40px;
+    
+}
+.N1-KILA img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    left: 16%;
+    top: 3px ;
+    align-items: center;
+
+}
+.N1-KILA a{
+    position: relative;
+    text-decoration: none;
+    padding-left: 15px;
+    top: 12px;
+    left: 20%;
+    text-align: center;
+    align-items: center;
+    color: wheat;
+    text-transform: uppercase;
+    
+
+    
+}
+.N2-KILA{
+    position: relative;
+    background-image: url(capa2.jpg);
+    height: PX;
+    width: 100%;
+}
+.N2-KILA img{
+    left: 20%;
+    top: 60px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%; 
+}
+.git img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 45px;
+    right: 20px;
+    background-color: #994463;
+    border-color: black;
+    transition: all 0.5s;
+}
+.texto1 h1{
+    position: absolute;
+    right: 35%;
+    top: 220px;
+    font-size: 400%;
+    color: #7B7B7B;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto1 h3{
+    font-weight: 100;
+    position: absolute;
+    right: 40%;
+    top: 290px;
+    font-size: 200%;
+    color: #0e0c0c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto1 h4{
+    font-weight: 100;
+    position: absolute;
+    right: 65%;
+    top: 350px;
+    font-size: 200%;
+    color: #0e0c0c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto1 P{
+    text-align: justify;
+    font-weight: 50;
+    position: absolute;
+    right: 35%;
+    top: 390Px;
+    font-size: 100%;
+    color: #0e0c0c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.N3-KILA{
+    height: 250PX;
+    width: 100%;
+    background-color: #DEDEDE;
+    top: 500px;
+    position: absolute;
+}
+
+.N4-KILA{
+    height: 150PX;
+    width: 100%;
+    background-color: #434343;
+    top: 700px;
+    position: absolute;
+}
+.texto2 {
+    top: 25%;
+    position: absolute;
+    left: 35%;
+    align-items: center;
+    justify-content: right;
+    padding-left: 12px;  
+}
+
+
+
+@media screen and (max-width: 750px) {
+    *{
+        margin: 0%; padding: 0%;
+    }  
+    .N1-KILA{
+        background-color: rgb(50, 50, 50);
+        height: 40px;
+    }      
+    .N1-KILA img{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-radius: 100%;
+        left: 20%;
+        top: 3px ;
+        align-items: center;
+    
+    }
+    .N1-KILA a{
+        position: relative;
+        font-size: 8px;
+        text-decoration: none;
+        padding-left: 15px;
+        top: 12px;
+        left: 0%;
+        text-align: center;
+        align-items: center;
+        color: wheat;
+        text-transform: uppercase;
+        
+        
+    }
+    .N2-KILA{
+        position: relative;
+        background-image: url(capa2.jpg);
+        height: PX;
+        width: 100%;
+    }
+    .N2-KILA img{
+        left: 20%;
+        top: 60px;
+        position: relative;
+        height: 70px;
+        width: 70px;
+        border-radius: 100%; 
+    }
+    .git img{
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: 45px;
+        right: 20px;
+        background-color: #994463;
+        border-color: black;
+    }
+    .texto1{
+        position: absolute;
+        height: 150px;
+        background-color: #d8bdbd;
+        top: 29%;
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+    .texto1 h1{
+        text-align: center;
+        align-items: center;
+        position: relative;
+        left: 0%;
+        top: 10px;
+        font-size: 100%;
+        color: #7B7B7B;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .texto1 h3{
+        text-align: center;
+        align-items: center;
+        font-weight: 100;
+        position: relative;
+        left: 0%;
+        top: 15%;
+        font-size: 70%;
+        color: #0e0c0c;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .texto1 h4{
+        text-align: center;
+        align-items: center;
+        font-weight: 100;
+        position: relative;
+        left: 0%;
+        top: 20%;
+        font-size: 16px;
+        color: #0e0c0c;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .texto1 P{
+        align-items: center;
+        text-align: justify;
+        text-align: center;
+        font-weight: 50px;
+        position: relative;
+        left: 0%;
+        top: 22%;
+        font-size: 12px;
+        color: #0e0c0c;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .N3-KILA{
+        height: 150PX;
+        width: 100%;
+        background-color: #DEDEDE;
+        top: 400px;
+        position: absolute;
+    }
+    
+    .N4-KILA{
+        height: 100PX;
+        width: 100%;
+        background-color: #434343;
+        top: 499px;
+        position: absolute;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    .texto1 P{
+        align-items: center;
+        text-align: justify;
+        text-align: center;
+        font-weight: 50px;
+        position: relative;
+        left: 0%;
+        top: 22%;
+        font-size:10px;
+        color: #0e0c0c;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .N1-KILA a{
+        position: relative;
+        font-size: 5px;
+        text-decoration: none;
+        padding-left: 15px;
+        top: 12px;
+        left: 0%;
+        text-align: center;
+        align-items: center;
+        color: wheat;
+        text-transform: uppercase;
+        
+        
+    }
+}
+
+
+
+    
+   
+     
